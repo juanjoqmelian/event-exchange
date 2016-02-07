@@ -1,0 +1,4 @@
+event-exchange:
+  build: .
+  ports:
+    - "5672:5672"
