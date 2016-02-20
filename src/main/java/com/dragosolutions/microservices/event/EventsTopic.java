@@ -10,7 +10,7 @@ import java.util.concurrent.TimeoutException;
 
 public class EventsTopic {
 
-    private static final String EVENTS_TOPIC = "events-topic";
+    static final String EVENTS_TOPIC = "events-topic";
 
     private ConnectionFactory connectionFactory;
 
